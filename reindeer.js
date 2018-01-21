@@ -12,11 +12,8 @@ for (let i = 0; i < colors.length; i++) {
     for (let j = 0; j < reindeer.length; j++) {
         coloredReindeer.push(colors[i] + reindeer[j]);
     }
-    // *** WHY PUSH?
-    // *** is the var coloredReindeer above [] left empty because ______???
-    /* originally tried just to see what happens:
-    var coloredReindeer = colors.concat("reindeer");
-    console.log(coloredReindeer); 
-    it printed the colors 13 times, reindeer once. */
     hohohoElement.innerHTML += coloredReindeer;
 }
+    // *** WHY PUSH?
+    // *** is the var coloredReindeer above [] left empty because ______?
+    // names generated are ALL POSSIBLE COMBINATIONS. however, is the goal to combine each to each just once?
